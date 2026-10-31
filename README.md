@@ -16,3 +16,7 @@
 ## 4. Hướng dẫn cài đặt và chạy chương trình
 - Backend: `cd backend && npm install && npm start`
 - Frontend: `cd frontend && npm install && npm run dev`
+
+### Chạy Backend bằng Docker (Câu 5)
+docker pull trunghieu02122/backend
+docker run -d -p 5000:5000 --env-file ./backend/.env trunghieu02122/backend
