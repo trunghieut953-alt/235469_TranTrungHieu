@@ -20,3 +20,7 @@
 ### Chạy Backend bằng Docker (Câu 5)
 docker pull trunghieu02122/backend
 docker run -d -p 5000:5000 --env-file ./backend/.env trunghieu02122/backend
+
+### Chạy Frontend bằng Docker (Câu 6)
+docker pull trunghieu02122/frontend
+docker run -d -p 3000:3000 trunghieu02122/frontend
